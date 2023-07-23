@@ -1,6 +1,11 @@
 Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe
 
 
+
+
+
+
+
 Features:
 
 Tailwind design
@@ -21,12 +26,20 @@ How to fetch data in server react components by directly accessing database (WIT
 How to handle relations between Server and Child components!
 How to reuse layouts
 Folder structure in Next 13 App Router
+
+
+
+
 Prerequisites
 Node version 18.x.x
 
+
+
+
+
+
 Cloning the repository
-git clone https://github.com/AntonioErdeljac/next13-ai-saas.git
-Install packages
+git clone https://github.com/janareddyc7/Genius.git
 npm i
 Setup .env file
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
@@ -49,9 +62,27 @@ NEXT_PUBLIC_APP_URL="http://localhost:3000"
 Setup Prisma
 Add MySQL Database (I used PlanetScale)
 
+
+
 npx prisma generate
+
+
 npx prisma db push
+
+
 Start the app
+
+
 npm run dev
+
+
 run prisma
+
 run stripe api webhook
+
+
+Available commands
+Running commands with npm npm run [command]
+
+command	description
+dev	Starts a development instance of the app
